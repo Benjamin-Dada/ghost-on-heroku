@@ -18,7 +18,8 @@
             "user": "postmaster@sandbox4cf2e4a2bd6743ffb4757c79780b6c3e.mailgun.org",
             "pass": "a06e36d74cc2ee706389b655c2eccfd5"
         }
-    }
+    },
+    "from": "'Benjamin Dada' <hello@benjamindada.com>"
 }
 ,
   "logging": {
