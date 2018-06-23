@@ -1,5 +1,5 @@
 {
-  "url": "http://benjamindada.com/",
+  "url": "http://www.benjamindada.com/",
   "server": {
     "port": 2368,
     "host": "127.0.0.1"
@@ -18,7 +18,8 @@
             "user": "postmaster@benjamindada.com",
             "pass": "541695fc72096dac55c05af87f70a87e"
         }
-    }
+    },
+    "from": "'Benjamin' <hello@benjamindada.com>"
 },
   "logging": {
     "transports": [
