@@ -10,6 +10,14 @@
       "filename": "content/data/ghost-local.db"
     }
   },
+  "storage": {
+    "active": "cloudinary-store",
+    "cloudinary-store": {
+        "cloud_name": "dgpjdyg8p",
+        "api_key": "616792682275943",
+        "api_secret": "klJF5iZ1LbOFJ1n7r24yLA1mGH0"
+    }
+},
   "mail": {
     "transport": "SMTP",
     "options": {
