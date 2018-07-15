@@ -3,9 +3,9 @@
         "active": "cloudinary-store",
         "cloudinary-store": {
             "auth": {
-                "cloud_name": "",
-                "api_key": "",
-                "api_secret": ""
+                "cloud_name": "dgpjdyg8p",
+                "api_key": "616792682275943",
+                "api_secret": "klJF5iZ1LbOFJ1n7r24yLA1mGH0"
             },
             "upload": {
                 "use_filename": true,
