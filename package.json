@@ -11,8 +11,14 @@
   "version": "1.7.1",
   "dependencies": {
     "casper": "github:tryghost/Casper#2.5.1",
+<<<<<<< HEAD
     "ghost": "2.0",
     "ghost-storage-adapter-s3": "^2.5.2",
+=======
+    "ghost": "^2.0",
+    "ghost-cloudinary-store": "^3.0.1",
+    "ghost-storage-adapter-s3": "^2.3.0",
+>>>>>>> fc4942dd5bbe06b90dd1491063c6a828cbb6f69c
     "mysql": "^2.14.1"
   },
   "devDependencies": {
@@ -21,7 +27,7 @@
     "eslint-plugin-import": "^2.14.0"
   },
   "engines": {
-    "node": "6.11.x"
+    "node": "8.9.x"
   },
   "scripts": {
     "start": "node server.js"
