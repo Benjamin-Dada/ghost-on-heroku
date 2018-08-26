@@ -11,25 +11,6 @@
     }
   },
   "storage": {
-<<<<<<< HEAD
-    "active": "cloudinary-store",
-    "cloudinary-store": {
-        "cloud_name": "dgpjdyg8p",
-        "api_key": "616792682275943",
-        "api_secret": "klJF5iZ1LbOFJ1n7r24yLA1mGH0"
-    },
-    "upload": {
-      "use_filename": true,
-      "unique_filename": false,
-      "overwrite": false,
-      "folder": "blog-images",
-      "tags": ["blog"]
-    },
-    "display": {
-      "quality": "auto",
-      "secure": false,
-      "cdn_subdomain": true
-=======
     "active": "ghost-cloudinary-store",
     "ghost-cloudinary-store": {
         "cloud_name": "dgpjdyg8p",
@@ -40,7 +21,6 @@
             "secure": "true",
             "anything-else": "values"
         }
->>>>>>> fc4942dd5bbe06b90dd1491063c6a828cbb6f69c
     }
   },
   "mail": {
@@ -48,14 +28,6 @@
     "options": {
         "service": "Mailgun",
         "auth": {
-<<<<<<< HEAD
-            "user": "postmaster@benjamindada.com",
-            "pass": "541695fc72096dac55c05af87f70a87e"
-        }
-    },
-    "from": "'Benjamin' <hello@benjamindada.com>"
-},
-=======
             "user": "postmaster@sandbox4cf2e4a2bd6743ffb4757c79780b6c3e.mailgun.org",
             "pass": "a06e36d74cc2ee706389b655c2eccfd5"
         }
@@ -63,7 +35,6 @@
     "from": "'Benjamin Dada' <hello@benjamindada.com>"
 }
 ,
->>>>>>> fc4942dd5bbe06b90dd1491063c6a828cbb6f69c
   "logging": {
     "transports": [
       "file",
