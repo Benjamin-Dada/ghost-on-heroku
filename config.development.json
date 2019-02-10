@@ -11,18 +11,15 @@
     }
   },
   "storage": {
-    "active": "ghost-cloudinary-store",
-    "ghost-cloudinary-store": {
-        "cloud_name": "dgpjdyg8p",
-        "api_key": "616792682275943",
-        "api_secret": "klJF5iZ1LbOFJ1n7r24yLA1mGH0",
-        "configuration": {
-            "quality": "auto:good",
-            "secure": "true",
-            "anything-else": "values"
-        }
-    }
-  },
+    "active": "s3",
+    "s3": {
+      "S3_ACCESS_KEY_ID": "",
+      "S3_ACCESS_SECRET_KEY": "",
+      "S3_BUCKET_NAME": "",
+      "S3_BUCKET_REGION": ""
+
+    },
+
   "mail": {
     "transport": "SMTP",
     "options": {
@@ -33,8 +30,7 @@
         }
     },
     "from": "'Benjamin Dada' <hello@benjamindada.com>"
-}
-,
+  },
   "logging": {
     "transports": [
       "file",
@@ -45,4 +41,5 @@
   "paths": {
     "contentPath": "content"
   }
+}
 }
