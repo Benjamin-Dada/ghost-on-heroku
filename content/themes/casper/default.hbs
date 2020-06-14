@@ -19,6 +19,8 @@
 
 </head>
 
+
+
 <body class="{{body_class}}">
     {{!-- <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W8WD27P"
@@ -26,6 +28,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) --> --}}
 
     <div class="site-wrapper">
+        <section role="search" data-ss360="true">
+            <input type="search" id="searchBox">
+            <button id="searchButton"></button>
+        </section>
 
         {{!-- All the main content gets inserted here, index.hbs, post.hbs, etc --}}
         {{{body}}}
